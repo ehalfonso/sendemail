@@ -44,7 +44,7 @@ router.post('/send-email',(req,res)=>{
                 service: "gmail",
                 auth:{
                     type:"OAuth2",
-                    user:"ehalfonso@uts.edu.mx",
+                    user:"usermail@gmail.com",
                     clientId:CLIENT_ID,
                     clientSecret:CLIENT_SECRET,
                     refreshToken:REFRESH_TOCKEN,
